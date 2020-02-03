@@ -1,6 +1,30 @@
 body {
-	background-image: url(./images/embossed-diamond.png);
+	background-image: url(./images/backgroundimage.jpg);
 }
+
+.jumbotron {
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.568);
+}
+
+.lead  {
+	color: rgb(0, 255, 234);
+}
+
+.btn-primary {
+	background-color: rgba(4, 4, 68, 0.959);
+	color: rgb(0, 255, 234);
+}
+
+.first  {
+	color: rgb(0, 255, 234);
+}
+
+#email  {
+	color: rgb(0, 255, 234);
+}
+
+
 #port1 { 
 	float: left;
 	text-align: center;
@@ -37,25 +61,29 @@ body {
 	padding: 20px;
 }
 
-.footer {
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
-	background-color: black;
-	width: 100%;
-	font-size: 12px;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	padding: 5px 0px;
-	color: rgb(88, 86, 86);
-	border-top: 6px solid rgb(75, 73, 73);
-	}
+
+
+	.footer {
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 5px 0px;
+		color: rgba(255, 255, 255, 0.568);
+		background-color: #222;
+		border-color: #080808;
+		margin-top: 40px;
+		}
 
 	.side-bar { clear:both;
 		width: 270px;
-		background-color: #ffffff;
+		background-color: #ffffff67;
 		margin: auto;
 		text-align: center;
+		padding-bottom: 60px;
 	}
 
 	.link-images {
@@ -91,4 +119,6 @@ body {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
+
+	
 
