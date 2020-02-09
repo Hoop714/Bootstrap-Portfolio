@@ -61,6 +61,12 @@ body {
 	padding: 20px;
 }
 
+#port7 { 
+	clear:both;
+	float: left;
+	text-align: center;
+	padding: 20px;
+}
 
 
 	.footer {
