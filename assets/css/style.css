@@ -59,49 +59,56 @@ body {
 }
 
 #port1 { 
-	border: 2px solid rgba(6, 42, 78, 0.548);
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port2 { 
-	border: 2px solid rgba(6, 42, 78, 0.548);
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port3 { 
-	border: 2px solid rgba(6, 42, 78, 0.548);
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port4 { 
-	border: 2px solid rgba(6, 42, 78, 0.548);
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	clear:both;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 #port5 { 
-	border: 2px solid rgba(6, 42, 78, 0.548);
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port6 { 
-	border: 2px solid rgba(6, 42, 78, 0.548);
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port7 {
-	border: 2px solid rgba(6, 42, 78, 0.548); 
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
 	clear:both;
 	float: left;
 	text-align: center;
@@ -109,6 +116,24 @@ body {
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+#port8 { 
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 130px;
+}
+
+#port9 { 
+	background-color: rgba(6, 42, 78, 0.548);
+	border: 3px solid grey;
+	float: left;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 130px;
 }
 
 
