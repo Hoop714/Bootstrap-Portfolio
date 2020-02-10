@@ -1,71 +1,114 @@
+
+
 body {
-	background-image: url(./images/backgroundimage.jpg);
+	background-image: url(./images/embossed-diamond.png);
 }
 
 .jumbotron {
-	background-color: transparent;
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
 	color: rgba(255, 255, 255, 0.568);
 }
 
+.container-heading {
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	transform: translate(-1%, -1%);
+	letter-spacing: 0.1em;
+	transition: 0.3s;
+	text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+	  1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+	  5px 13px 15px black;
+  }
+  
+  .container-heading:hover {
+	transition:   0.3s;
+	transform: scale(1.1)translate(-1%, -1%);
+	text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+	  1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+	  1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+  }
+
 .lead  {
-	color: rgb(0, 255, 234);
+	color: rgba(4, 4, 68, 0.959);
 }
 
 .btn-primary {
 	background-color: rgba(4, 4, 68, 0.959);
-	color: rgb(0, 255, 234);
+	color: rgba(255, 255, 255, 0.568);
 }
 
 .first  {
-	color: rgb(0, 255, 234);
+	color: rgba(4, 4, 68, 0.959);
 }
 
 #email  {
-	color: rgb(0, 255, 234);
+	color: rgba(4, 4, 68, 0.959);
 }
 
 
+.portLabel {
+	background-color: rgba(6, 42, 78, 0.548);
+	color: rgba(245, 245, 245, 0.623);
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
 #port1 { 
+	border: 2px solid rgba(6, 42, 78, 0.548);
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port2 { 
+	border: 2px solid rgba(6, 42, 78, 0.548);
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port3 { 
+	border: 2px solid rgba(6, 42, 78, 0.548);
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port4 { 
+	border: 2px solid rgba(6, 42, 78, 0.548);
 	clear:both;
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 #port5 { 
+	border: 2px solid rgba(6, 42, 78, 0.548);
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
 #port6 { 
+	border: 2px solid rgba(6, 42, 78, 0.548);
 	float: left;
 	text-align: center;
 	padding: 20px;
 }
 
-#port7 { 
+#port7 {
+	border: 2px solid rgba(6, 42, 78, 0.548); 
 	clear:both;
 	float: left;
 	text-align: center;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 
@@ -74,23 +117,11 @@ body {
 		left: 0px;
 		bottom: 0px;
 		width: 100%;
-		font-size: 12px;
-		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
 		padding: 5px 0px;
-		color: rgba(255, 255, 255, 0.568);
-		background-color: #222;
-		border-color: #080808;
 		margin-top: 40px;
 		}
 
-	.side-bar { clear:both;
-		width: 270px;
-		background-color: #ffffff67;
-		margin: auto;
-		text-align: center;
-		padding-bottom: 60px;
-	}
 
 	.link-images {
 		width: 93%;
@@ -126,5 +157,9 @@ body {
 		margin-bottom: 15px;
 	}
 
-	
+	.container-fluid {
+		text-align: center;
+		color: #9d9d9d;
+	}
 
+	
